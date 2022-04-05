@@ -7,8 +7,8 @@
 .header {
     width: 60%;
     height: auto;
-    background-color: darkolivegreen ;
-    border-radius: 5px;
+    background-color: #97694F;
+    border-radius: 10px;
     color: #FFF;
     font-weight: 900;
     font-size: 70px;
@@ -45,14 +45,45 @@
     position: relative;
 }
 
+.card-deck, .card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+
+.card-title {
+    background-color: #D19275;
+}
+
+.card-header {
+    background-color: #D19275;
+}
+
 .body {
-    background-color: beige;
+    background-color: #FFFFDE;
 }
 
 .footer {
     margin-top: 10px;
 }
 
-.end {
-    display: inline;
+.button-float {
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    padding: 0 !important;
+    top: 20rem;
+    right: 2rem;
+    font-size: 35px;
+    color: #ffffff;
+    background-color: #97694F;
+    border: 2px solid #97694F;
+}
+
+.button-float:hover {
+    border: 2px solid sienna;
+    background-color: #ffffff;
+    color: #D19275;
+    transform: translateY(-2px);
+    cursor: pointer;
 }
